@@ -1,0 +1,19 @@
+<suite name="BlazeDemo Test Suite" parallel="false">
+
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+
+    <test name="Home Page Tests">
+        <classes>
+            <class name="tests.HomePageTest"/>
+        </classes>
+    </test>
+
+    <test name="Flight Booking Tests">
+        <classes>
+            <class name="tests.FlightBookingTest"/>
+        </classes>
+    </test>
+
+</suite>
